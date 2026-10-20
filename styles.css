@@ -1,0 +1,60 @@
+/* 1. Element selector */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* 2. id selector */
+#main-title {
+    text-align: center;
+    color: navy;
+}
+
+/* 3. class selector */
+.highlight {
+    background-color: yellow;
+}
+
+/* 4. Multiple selector */
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* 5. No double borders */
+table {
+    border-collapse: collapse;
+}
+
+/* 6. Descendant selector */
+ul li {
+    color: green;
+}
+
+/* 7. Child selector */
+ol > li {
+    font-weight: bold;
+}
+
+/* 8. Adjacent sibling selector */
+h3 + p {
+    font-size: 20px;
+}
+
+/* 9. Attribute selector */
+a[href="https://www.ksu.edu.sa"] {
+    color: red;
+}
+
+/* 10. Pseudoclass */
+input[type="submit"]:hover {
+    background-color: lightgreen;
+}
+
+/* 11. Box model */
+img {
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px dashed gray;
+}
